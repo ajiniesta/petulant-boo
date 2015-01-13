@@ -1,11 +1,15 @@
 {
   "name": "petulantboo",
   "version": "0.0.0",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/ajiniesta/petulant-boo.git"
-    },
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajiniesta/petulant-boo.git"
+  },
+  "dependencies": {
+    "express": "^4.10.8",
+    "gzippo": "^0.2.0",
+    "morgan": "^1.5.1"
+  },
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
